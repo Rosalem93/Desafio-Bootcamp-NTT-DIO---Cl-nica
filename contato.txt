@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template - Utilizar como modelo</title>
+    <link rel="stylesheet" href="base.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <!-- Aqui vai o seu menu -->
+            <ul>
+                <li><a href="file:///C:/Users/pedro.barbosa/Desktop/PEDRO/Documentos%20pessoais/IR/Desafio%202%20DIO/pagina_principal.html">Página Principal</a></li>
+		<li><a href="file:///C:/Users/pedro.barbosa/Desktop/PEDRO/Documentos%20pessoais/IR/Desafio%202%20DIO/Sobre%20a%20Cl%C3%ADnica.html">Sobre a Clínica</a></li>
+		<li><a href="file:///C:/Users/pedro.barbosa/Desktop/PEDRO/Documentos%20pessoais/IR/Desafio%202%20DIO/horario%20de%20atendimento.html">Horários</a></li>
+
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="header">
+                
+                <!-- Aqui vai o seu header -->
+
+		<img src="imagem_contato.jpg" alt="Patas de animais" style="width:1000px; height: 200px;">
+            </div>
+    
+            <div class="content">
+                
+                <!-- Aqui vai o seu conteúdo -->
+		
+		<h1 style="text-align: center;">Contato</h1>
+		<h3>Telefones para contato<h3>
+		<img src="logo_telefone.png" style="width: 30px; height: 30px; margin: 5px">(11)1234-5678<br>
+		<img src="logo_whats.png" style="width: 30px; height: 30px; margin: 5px">(11)95555-6789<br><br>
+		<h3>Nosso endereço:</h3>
+		<p>Rua do centro, 463 - Centro - São Paulo/SP - CEP: 01234-567<p><br><br>
+
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d913.8740743529855!2d-46.52967096048769!3d-23.62239109324186!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5d4c13d498b7%3A0xe4a604f2211b11ec!2sR.%20Santa%20Isabel%2C%20120%20-%20Vila%20Camilopolis%2C%20Santo%20Andr%C3%A9%20-%20SP%2C%2009230-580!5e0!3m2!1spt-BR!2sbr!4v1666697507643!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+		<br><br><br>
+
+		<fieldset>
+			<legend>Dados para Contato</legend>
+				<div>
+					<form>
+						<label for="nome">Nome completo</label><br>
+						<input type="texto" id="nome" name="nome"><br>
+						<label for="e-mail">E-mail</label><br>
+						<input type="e-mail" id="e-mail" name="e-mail"><br>
+						<label for="assunto">Assunto:</label><br>
+						<input type="text" id="assunto" name="assunto"><br>
+						<legend>Digite aqui sua mensagem:</legend><br>
+						<textarea name="message"></textarea><br><br>
+						<input type="submit" value="submit" name="Enviar">
+						<input type="reset" value="reset" name="limpar">
+					</form>
+				</div>
+            </div>
+    
+            <div class="footer">
+                
+                <!-- Aqui vai o seu rodapé -->
+
+		<table>
+			<td>
+				<tr><h5>Telefone para contato:</h5></tr>
+				<tr><p style="font-size:60%;"><img src="logo_telefone.png" style="width:20px; height: 20px;"> (11)1234-5678 / <img src="logo_whats.png" style="width:20px; height:20px;">(11)95555-6789 </p></tr>
+				
+			</td>
+
+			<td>
+				<tr><h5>Endereço:</h5></tr>
+				<tr><p style="font-size:60%";>Rua do centro, 463 - Centro - São Paulo/SP - CEP: 01234-567</tr></p>
+			</td>
+		
+			<td>
+				<tr><h5>Redes Sociais</h5></tr>
+				<tr><img src="logo_insta.jpg" alt="Instagram" style="width:20px; height: 20px; margin:5px;">
+				    <img src="logo_face.png" alt="Facebook" style="width:20px; height: 20px; margin:5px;">
+				    <img src="logo_twitter.png" alt="Twitter" style="width:20px; height: 20px; margin:5px;">
+				</tr>
+			</td>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre a Clínica</title>
+    <link rel="stylesheet" href="base.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <!-- Aqui vai o seu menu -->
+            <ul>
+                <li><a href="file:///C:/Users/pedro.barbosa/Desktop/PEDRO/Documentos%20pessoais/IR/Desafio%202%20DIO/pagina_principal.html">Página Principal</a></li>
+		<li><a href="file:///C:/Users/pedro.barbosa/Desktop/PEDRO/Documentos%20pessoais/IR/Desafio%202%20DIO/horario%20de%20atendimento.html">Horário de Atendimento</a></li>
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="header">
+               
+                <!-- Aqui vai o seu header -->
+
+		<img src="imagem_paginasobreaclinica.jpg" alt="Logotipo da clinica" style="width:1000px; height: 200px;">
+            </div>
+    
+            <div class="content">
+                
+                <!-- Aqui vai o seu conteúdo -->
+
+		<h1 style="text-align: center;">Sobre a Clínica</h1>
+		<p>Fundada em 2015, por Maria, uma amante e protetora dos animais, a clínica Petlove vem ganhando reconhecimento pela forma como
+		   trata os animais. A equipe sempre atenciosa e carinhosa com os animais, trabalha com alegria de poder ajudar seus pets. Com um
+		   amplo espaço para a recuperação de nossos queridos animais, a clínica acabou por se especializar também na <i>fisioterapia</i>
+		   para os animais se recuperarem de maneira mais rápida e eficiente.
+		</p>
+		<p>O lugar conta com um amplo espaço para a diversão e a recuperação do seu pet. Contamos com profissionais que amam ajudar
+		   nossos amigos.
+		</p>
+		<blockquote>Me sinto realizada de poder ajudar quem tanto nos faz feliz!</blockquote>
+
+		<hr />
+            </div>
+    
+            <div class="footer">
+               
+                <!-- Aqui vai o seu rodapé -->
+
+		<table>
+			<td>
+				<tr><h5>Telefone para contato:</h5></tr>
+				<tr><p style="font-size:60%;"><img src="logo_telefone.png" style="width:20px; height: 20px;"> (11)1234-5678 / <img src="logo_whats.png" style="width:20px; height:20px;">(11)95555-6789 </p></tr>
+				
+			</td>
+
+			<td>
+				<tr><h5>Endereço:</h5></tr>
+				<tr><p style="font-size:60%";>Rua do centro, 463 - Centro - São Paulo/SP - CEP: 01234-567</tr></p>
+			</td>
+		
+			<td>
+				<tr><h5>Redes Sociais</h5></tr>
+				<tr><img src="logo_insta.jpg" alt="Instagram" style="width:20px; height: 20px; margin:5px;">
+				    <img src="logo_face.png" alt="Facebook" style="width:20px; height: 20px; margin:5px;">
+				    <img src="logo_twitter.png" alt="Twitter" style="width:20px; height: 20px; margin:5px;">
+				</tr>
+			</td>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
